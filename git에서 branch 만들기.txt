@@ -27,5 +27,11 @@ branch는 프로젝트 복사본, 커밋 복사본이라고 생각하면 됨
 
 >git switch coupon
 branch 파일로 이동
+                -> 커밋 2-1 (coupon branch)
+커밋1 -> 커밋2(main branch or master branch)
 
+
+branch 간 이동이 가능함!
+>git switch main
+이러면 쿠폰 브랜치에서 만든 건 보이지 않음
 
