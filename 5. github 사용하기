@@ -33,3 +33,22 @@ github.com은 기본 브랜치 이름을 main으로 강요함!ㅋㅋㅋ
 >git push -u 저장소주소 main
 이러면 로컬 저장소에 있던 내역이 모두 원격저장소로 푸쉬됨
 
+로그인해야 하면 로그인해주고
+git pull 입력하라 하면 입력해주면
+
+깃허브에 잘 저장됨
+
+
+
+
+>git push -u 저장소주소 main
+이거 할 때 저장소 주소 매번 치기 귀찮을 땐 변수로 만들어서 사용 가능함
+
+>git remote add 변수명 주소
+이러면 변수로 만들어서 간단한 변수만으로 git push 가능함
+변수이름은 origin으로 하는 경우가 많다고 함
+
+remote add 해 놓으면 이제
+>git push origin main
+명령어로 간편하게 push 가능함
+
