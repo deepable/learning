@@ -53,3 +53,22 @@ conflict가 일어났다면 이걸 직접 수정해줘야 함
 어쨌든 병합을 완료하고 나서 스테이징, 커밋 해주면 됨
 
 
+git branch는 협업 시에 매우 중요함
+10명이서 같은 소스코드를 동시에 수정하려 하면 대참사가 남
+그래서 각각 branch를 만들어서 각각 수정하고 merge하는 방식으로 작업을 함
+
+
+요약
+
+branch 생성
+>git branch 브랜치명
+
+branch 이동
+>git switch 브랜치명
+
+branch를 merge할 때는 기준 브랜치(main) 이동 후에
+>git merge 가져올 브랜치명
+
+conflict 발생 시에는 코드 고쳐주고 나서는
+>git add .
+>git commit -m '메세지'
