@@ -58,7 +58,7 @@ git init 입력
 > git add .
 이렇게 하면 폴더 안의 모든 파일을 스테이징하는 코드
 
-> git status.
+> git status
 지금 어떤 파일들을 스테이징했는지 확인하는 코드
 
 >git log --all --oneline
@@ -66,3 +66,5 @@ git init 입력
 
 스테이징할 때는 간단한 기능 완성 후에 한번씩 하면 됨
 5초마다 할 필요 없다!
+
+수정
