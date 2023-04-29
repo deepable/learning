@@ -35,3 +35,23 @@ git pull
 
 그 다음에는 push 가능함
 
+
+그니까 간단하게 git pull 먼저 하고 
+push 하면 됨
+
+>git pull origin 브랜치명
+이런 식으로 특정 브랜치만 가져오는 것도 할 수 있음
+
+
+git pull = git fetch + git merge
+
+git fetch는 신규 커밋 가져오는 것
+git merge는 내 브랜치에 해당 커밋을 merge하는 것
+
+
+그래서 경우에 따라 conflict가 날 수 있음
+그럴때는 에디터로 수정 해주면 됨~
+
+
+요약
+push하기 전에 pull부터 하즈아
