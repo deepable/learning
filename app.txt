@@ -1,2 +1,38 @@
 dfdfdfdfdfdfa
 ㄹㄹㄹㄹㄹㄹㄹㄹ
+
+
+git은 버전 관리 프로그램!
+과거로 돌아가기 용이하고
+과거 작업내용도 볼 수 있다.
+
+git 검색해서 설치해주면 됨
+1. Use visual code studio use as git's default editor
+2. override the default branch name for new repository
+두가지만 체크하고 나머지는 그냥 next 쭉
+
+폴더 하나 만들고 shift+마우스 오른쪽 클릭
+여기에 powershell 열기 클릭
+
+> git config --global user.email "이메일주소"
+> git config --global user.name "사용자이름"
+
+이렇게 설정까지 해주면 설치 완료!
+
+
+사용할 때는 Visual studio 터미널에서
+git init 입력
+
+이제 git이 작업 폴더를 다 감시해주는 것
+
+
+코드를 작성하고 git에 기록(버전생성)하려면
+>git add 파일명(app.txt)
+>git commit -m '메세지'
+
+이러면 버전 생성이 됨
+
+수정하고 나서도 마찬가지로
+>git add 파일명(app.txt)
+>git commit -m '메세지'
+
