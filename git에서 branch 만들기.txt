@@ -35,3 +35,7 @@ branch 간 이동이 가능함!
 >git switch main
 이러면 쿠폰 브랜치에서 만든 건 보이지 않음
 
+>git log --oneline --all --graph
+이걸로 각 브랜치 커밋 확인 가능!
+
+이제 브랜치를 합쳐보자
